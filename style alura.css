@@ -1,0 +1,125 @@
+*{
+    background: #f3f5fc;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%
+}
+
+.bandera{
+    padding-top: 10px;
+    margin-left: 980px;
+    width: 7%
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border-radius: 24px;
+    background: #39e704;
+    border: 5px solid #0A3871;
+    margin-top: 20px;
+}
+
+.text {
+    border: none;
+    color: #0A3871;
+    margin-top:90px;
+    text-transform: lowercase;
+}
+
+::placeholder { color:#0A3871; }
+    .text-area:focus {
+        outline: none;
+}
+
+.mensaje{
+    background: #FFFFFF;
+    background-image: url("/C:/Users/serte/Desktop/solucion CH/imagenes/detective.jpeg");
+    background-repeat: no-repeat;
+    border: 5px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left:98 px;
+    margin-top: 120px;
+    position; fixed;
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: #39e704;
+    border: 5px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background: #39e704;
+    border: 5px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copiar {
+    background: #d2e6f7;
+    border: 5px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 135px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacion {
+    color: #000000;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 2px;
+}
+.diamante{
+    padding-top: 10px;
+    margin-left: 1px;
+   
+}
+
+footer{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    margin-left: 450px;
+    margin-top: 20px;
+}
+.desafio{
+    font-weight: bold;
+    font-size: 20px;
+}
